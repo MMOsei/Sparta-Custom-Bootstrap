@@ -45,7 +45,17 @@ ul {
     cursor: pointer; /* Add a pointer on hover */
 }
 
+/* Made changes here to colour and alignment  */
 h2 {
+  text-align: center;
+  color: red;
+  padding: 30px 0px 30px 0px;
+}
+
+
+/* changed p and h3 alignment and height for line */
+
+h3 {
   text-align: center;
 }
 
