@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sparta Bootstrap</title>
-  <!-- Favicon -->
-  <link rel="icon"
-      type="image/png"
-      href="images/favicon.png">
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="CSS/bootstrap-3.3.7-dist/css/bootstrap.css">
-  <link rel="stylesheet" href="CSS/custom.css">
-  <!-- JQuery -->
-  <script src="JS/jquery-3.3.1.min.js" charset="utf-8"></script>
-  <!-- JavaScript -->
-  <script src="CSS/bootstrap-3.3.7-dist/js/bootstrap.js" charset="utf-8"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sparta Bootstrap</title>
+    <!-- Favicon -->
+    <link rel="icon"
+        type="image/png"
+        href="images/favicon.png">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="CSS/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/custom.css">
+    <!-- JQuery -->
+    <script src="JS/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <!-- JavaScript -->
+    <script src="CSS/bootstrap-3.3.7-dist/js/bootstrap.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <main>
+      <nav class="navbar">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="Images/sparta-global-logo-white.svg" alt="Sparta Global Logo" class="brandlogo"></a>
+          </div>
 
-  <nav class="navbar">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="Images/sparta-global-logo-white.svg" alt="Sparta Global Logo" class="brandlogo"></a>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="pages/about.html">About</a></li>
+              <li><a href="pages/contact.html">Contact Us</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+    <!-- jumbatron -->
+    <div class="overlay jumbotron landing-jt">
+      <div class="container">
+        <h1>We are Spartans!</h1>
+        <img src="Images/sparta-global-logo-white.svg" alt="Spart Global Logo">
+        <p></p>
+      </div>
     </div>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="pages/about.html">About</a></li>
-        <li><a href="pages/contact.html">Contact Us</a></li>
+    <!-- course info -->
+    <!-- <div class="row">
+      <div class="col-md-6">.col-md-6</div>
+      <div class="col-md-6">.col-md-6</div>
+    </div> -->
 
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    <div class="row course-info">
+      <div class="col-sm-8 col-md-offset-2">
+        <h2>What's on offer?</h2>
+        <p>Here at Sparta Global, you have the opportunity to train and work as a consultant in the technology industry following either of the business or technical streams.</p>
+        <div class="row">
+          <div class="col-xs-8 col-sm-6">
+            <h3>Business Stream</h3>
+            <ul>
+              <li>Project Management</li>
+              <li>Business Analysis</li>
+              <li>Manual Testing</li>
+            </ul>
+          </div>
+          <div class="col-xs-4 col-sm-6">
+            <h3>Technical Stream</h3>
+            <ul>
+              <li>Software Development</li>
+              <li>DevOps</li>
+              <li>(SDET) Automated Testing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<!-- jumbatron -->
-<div class="overlay jumbotron landing-jt">
-  <div class="container">
-    <h1>We are Spartans!</h1>
-    <img src="Images/sparta-global-logo-white.svg" alt="Spart Global Logo">
-    <p></p>
-  </div>
-</div>
+  </main>
 
+  <footer>
+    &copy; 2018
 
-<footer>
-  &copy; 2018
+  </footer>
 
-</footer>
-
-</body>
+  </body>
 </html>
