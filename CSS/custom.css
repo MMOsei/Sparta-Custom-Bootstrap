@@ -62,8 +62,17 @@ h3 {
 p {
   text-align: left;
   line-height: 40px;
+}
 
+/*Added a form on the contact us page and made changes to alignmentm colour of teext */
+form {
+  padding:10px 80px 0px 80px;
 
+}
+
+.btn {
+
+  margin: 10px 0px 20px 0px;
 
 
 }
