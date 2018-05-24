@@ -24,16 +24,18 @@ ul {
 
 
 .landing-jt {
-  /* background: url('../Images/project-1-screenshot.jpg'); */
-  background-size: cover;
-  height:600px;
+  background: url('../Images/sparta-global-logo-white.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size; */
+  /* height: ; */
   text-align: center;
-
 }
 
+
 .overlay {
-    /* position: fixed; /* Sit on top of the page content */ */
-    /* display: ; /* Hidden by default */ */
+    /* position: fixed; /* Sit on top of the page content */
+    /* display: ; /* Hidden by default */ 
     width: 100%; /* Full width (cover the whole page) */
     height: 600px; /* Full height (cover the whole page) */
     top: 0;
@@ -97,6 +99,10 @@ h1, .heading {
 body > div.jumbotron > div > h1 {
   color: red;
 
+}
+
+.contact-message {
+  color: rgb(51, 51, 51);
 }
 /* .nick-pic {
   width: 200px;
