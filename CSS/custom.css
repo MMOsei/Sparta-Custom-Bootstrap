@@ -89,11 +89,15 @@ ul {
   list-style: none;
   padding: 0;
 }
-h1 {
+h1, .heading {
   text-align: center;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
+body > div.jumbotron > div > h1 {
+  color: red;
+
+}
 /* .nick-pic {
   width: 200px;
   height: 200px;
